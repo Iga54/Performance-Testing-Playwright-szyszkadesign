@@ -1,0 +1,28 @@
+{
+  "name": "gui-playwright-performance-testing-szyszkadesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "codegen": "npx playwright codegen",
+    "quickTest": "npx playwright test --headed",
+    "eslint": "npx eslint . --ext .ts --max-warnings=0"
+  },
+  "author": "iga",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-playwright": "^1.6.2",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.0.1"
+  }
+}
